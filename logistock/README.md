@@ -43,7 +43,7 @@ cd logistock
 ### 2 Backend Setup 
 - Navigate to Backend Folder:  
   ```sh
-  cd e-commerce-backend
+  cd logistock-backend
   ```
 - Configure Database: Update `application.properties` or `application.yml`  
 - Run the Application:  
@@ -54,7 +54,7 @@ cd logistock
 ### 3 Frontend Setup
 - Navigate to Frontend Folder:
   ```sh
-  cd e-commerce-frontend
+  cd logistock-frontend
   ```
 - Install Dependencies:
   ```sh
