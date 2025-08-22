@@ -1,9 +1,9 @@
-### **LogiStock**  
+# LogiStock
 Full-stack E-commerce app built with Spring Boot, Angular, Spring Security 6, JWT, and AWS deployment.  
 
 ---
 
-## **Project Overview**  
+## Project Overview
 This is a full-stack e-commerce application with the following features:  
 - **Backend:** Spring Boot, Spring Data JPA, Spring Security 6, JWT authentication, REST APIs  
 - **Frontend:** Angular, Bootstrap 5  
@@ -14,7 +14,7 @@ This is a full-stack e-commerce application with the following features:
 
 ---
 
-##  **Project Structure**  
+##  Project Structure  
 ```
 e-commerce-fullstack_springboot_angular_aws/
 │── e-commerce-backend/                 
@@ -32,42 +32,42 @@ e-commerce-fullstack_springboot_angular_aws/
 
 ---
 
-## **Installation & Setup**  
+## Installation & Setup
 
-### **1️⃣ Clone the Repository**  
+### 1 Clone the Repository 
 ```sh
 git clone https://github.com/dinesh-more/e-commerce-fullstack_springboot_angular_aws.git
 cd e-commerce-fullstack_springboot_angular_aws
 ```
 
-### **2️⃣ Backend Setup**  
-- **Navigate to Backend Folder:**  
+### 2 Backend Setup 
+- Navigate to Backend Folder:  
   ```sh
   cd e-commerce-backend
   ```
-- **Configure Database:** Update `application.properties` or `application.yml`  
-- **Run the Application:**  
+- Configure Database: Update `application.properties` or `application.yml`  
+- Run the Application:  
   ```sh
   mvn spring-boot:run
   ```
 
-### **3️⃣ Frontend Setup**  
-- **Navigate to Frontend Folder:**  
+### 3 Frontend Setup
+- Navigate to Frontend Folder:
   ```sh
   cd e-commerce-frontend
   ```
-- **Install Dependencies:**  
+- Install Dependencies:
   ```sh
   npm install
   ```
-- **Start Development Server:**  
+- Start Development Server: 
   ```sh
   ng serve
   ```
 
 ---
 
-## 💽 **API Endpoints**  
+## API Endpoints 
 | Method | Endpoint                     | Description                   |
 | ------ | ---------------------------- | ----------------------------- |
 | POST   | `/api/auth/signup`           | User registration             |
@@ -92,8 +92,8 @@ cd e-commerce-fullstack_springboot_angular_aws
 
 ---
 
-## 🛠 **Tech Stack**  
-### **Backend:**  
+## Stack
+### Backend:  
 - Spring Boot  
 - Spring Data JPA  
 - Spring Security 6 & JWT  
@@ -101,18 +101,18 @@ cd e-commerce-fullstack_springboot_angular_aws
 - Hibernate  
 - Maven  
 
-### **Frontend:**  
+### Frontend: 
 - Angular    
 - Bootstrap 5
 
-### **Cloud & DevOps:**  
+### Cloud & DevOps: 
 - AWS S3, EC2, RDS, CloudFront  
 - Docker & Kubernetes  
 - CI/CD with GitHub Actions  
 
 ---
 
-## 📌 **Future Enhancements**  
+## Future Enhancements  
 - ✅ Payment Gateway Integration (Razorpay/Stripe)  
 - ✅ Admin Dashboard  
 - ✅ Product Recommendations with AI  
@@ -148,5 +148,5 @@ cd e-commerce-fullstack_springboot_angular_aws
 ![alt text](search.png)
 ---
 
-## **License**  
+## License
 This project is licensed under the MIT License.  
