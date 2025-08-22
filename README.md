@@ -121,9 +121,7 @@ cd e-commerce-fullstack_springboot_angular_aws
 
 ## Screenshots
 ### Login 
-![alt text](login-1.png) 
-### Product List
-![alt text](products-page-1.png) 
+![alt text](login.png) 
 ### Cart
 ![alt text](cart.png) 
 ### Checkout
