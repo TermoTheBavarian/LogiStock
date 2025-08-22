@@ -1,9 +1,9 @@
 ### **LogiStock**  
-🚀 Full-stack e-commerce application built with Spring Boot, Angular, Spring Security 6, JWT, and AWS deployment.  
+Full-stack E-commerce app built with Spring Boot, Angular, Spring Security 6, JWT, and AWS deployment.  
 
 ---
 
-## 📌 **Project Overview**  
+## **Project Overview**  
 This is a full-stack e-commerce application with the following features:  
 - **Backend:** Spring Boot, Spring Data JPA, Spring Security 6, JWT authentication, REST APIs  
 - **Frontend:** Angular, Bootstrap 5  
@@ -32,7 +32,7 @@ e-commerce-fullstack_springboot_angular_aws/
 
 ---
 
-## 🚀 **Installation & Setup**  
+## **Installation & Setup**  
 
 ### **1️⃣ Clone the Repository**  
 ```sh
@@ -148,10 +148,5 @@ cd e-commerce-fullstack_springboot_angular_aws
 ![alt text](search.png)
 ---
 
-## 🤝 **Contributing**  
-Feel free to fork this repo, raise issues, and submit pull requests! 🎉  
-
----
-
-## 📝 **License**  
+## **License**  
 This project is licensed under the MIT License.  
