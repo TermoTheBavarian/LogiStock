@@ -1,10 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3 sticky-top border-bottom">
   <div class="container-fluid px-4">
-    
+
     <!-- 🛍️ Brand Logo -->
     <a class="navbar-brand d-flex align-items-center gap-2" routerLink="/">
-      <img src="https://cdn-icons-png.freepik.com/512/869/869636.png" alt="logo" width="34" height="34" />
-      <span class="fw-bold fs-4 text-primary">e-comm</span>
+      <img src="https://images.griddo.universitatcarlemany.com/c/cover/q/65/f/svg/ucma-logo-no-text" alt="logo" width="34" height="34" />
+      <span class="fw-bold fs-4 text-primary">LogiStock</span>
     </a>
 
     <!-- ☰ Mobile Toggle -->
@@ -18,7 +18,7 @@
 
       <!-- 🔍 Search Bar -->
       <form class="d-flex mx-lg-4 my-3 my-lg-0 flex-grow-1" (submit)="onSearch($event)">
-        <input type="search" class="form-control me-2 rounded-pill shadow-sm px-3" 
+        <input type="search" class="form-control me-2 rounded-pill shadow-sm px-3"
                [(ngModel)]="searchQuery" name="search"
                placeholder="Search for products, brands and more" aria-label="Search">
         <button class="btn btn-primary rounded-pill px-4 shadow-sm" type="submit">
