@@ -16,7 +16,7 @@ This is a full-stack e-commerce application with the following features:
 
 ##  Project Structure  
 ```
-e-commerce-fullstack_springboot_angular_aws/
+logistock/
 │── e-commerce-backend/                 
 │   ├── src/main/java/...      
 │   ├── src/main/resources/    
@@ -36,8 +36,8 @@ e-commerce-fullstack_springboot_angular_aws/
 
 ### 1 Clone the Repository 
 ```sh
-git clone https://github.com/dinesh-more/e-commerce-fullstack_springboot_angular_aws.git
-cd e-commerce-fullstack_springboot_angular_aws
+git clone https://github.com/TermoTheBavarian/LogiStock.git
+cd logistock
 ```
 
 ### 2 Backend Setup 
