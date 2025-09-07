@@ -13,7 +13,7 @@
       <thead class="table-dark">
         <tr>
           <th>Product</th>
-          <th>Price (₹)</th>
+          <th>Price (€)</th>
           <th>Quantity</th>
           <th>Total</th>
           <th>Action</th>
@@ -33,7 +33,7 @@
               <button class="btn btn-sm btn-outline-secondary ms-1" (click)="updateQuantity(product.productId, 'add')">+</button>
             </div>
           </td>
-          <td>₹{{ product.quantity * product.specialPrice }}</td>
+          <td>€{{ product.quantity * product.specialPrice }}</td>
           <td>
             <button class="btn btn-sm btn-outline-danger" (click)="removeFromCart(product.productId)">🗑️</button>
           </td>
@@ -42,7 +42,7 @@
     </table>
 
     <div class="text-end mt-3">
-      <h4>Total: ₹{{ cart.totalPrice }}</h4>
+      <h4>Total: €{{ cart.totalPrice }}</h4>
       <button class="btn btn-primary mt-2" routerLink="/orders">Proceed to Checkout</button>
     </div>
   </div>

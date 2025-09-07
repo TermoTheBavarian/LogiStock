@@ -15,14 +15,14 @@
       <tr *ngFor="let product of cart.products">
         <td>{{ product.productName }}</td>
         <td>{{ product.quantity }}</td>
-        <td>₹{{ product.specialPrice }}</td>
-        <td>₹{{ product.quantity * product.specialPrice }}</td>
+        <td>€{{ product.specialPrice }}</td>
+        <td>€{{ product.quantity * product.specialPrice }}</td>
       </tr>
     </tbody>
   </table>
 
   <div class="text-end mb-3">
-    <h5>Total: ₹{{ cart.totalPrice }}</h5>
+    <h5>Total: €{{ cart.totalPrice }}</h5>
   </div>
 
   <!-- Address Section -->
